@@ -32,7 +32,7 @@ Outcome is "finalgrade.txt".
 
 It is set A>=90%, 90%>B>=80%,  80%>C>=70%, 70%>D>=60%, and F<60%.
 
-First line is "Points", which are total scores and maximum grade. 
+First line is "Points", which are maximum total scores and grade. 
 
 After scond lines, first column is name of students, second column is total scores of each students, and last column is grade of each students. 
 
