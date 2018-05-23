@@ -1,7 +1,7 @@
 # grade_counter
 Calculate total scores and grades for each students with a function of removing minimum score of quizzes. 
 
-It is python codes and use grade_counter.py to run!
+It is python codes and use "grade_counter.py" to run!
 # File format 
 
 		quiz1	quiz2	quiz3	quiz4	exam1	exam2	journal_club	attendance	assignment	#1st_line(header)
