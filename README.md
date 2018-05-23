@@ -6,9 +6,7 @@ This code have function to remove minimum score of quizzes.
 # File format 
 
 	quiz1	quiz2	quiz3	quiz4	quiz5	quiz6	exam1	exam2	exam3	journal_club	attendance	assignment
-
 Points	20	20	20	20	20	20	100	100	150	10	25	25
-
 Alex	10	13	15.5	8	6	12	66.5	54.8		10	15	24
 
 # Description of file format
