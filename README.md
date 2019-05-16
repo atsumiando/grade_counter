@@ -1,5 +1,5 @@
 # grade_counter
-Calculate total scores and grades for each students with a function of removing minimum score of quizzes. 
+Calculate total scores and show grades for each students with a function of removing minimum score of quizzes. 
 
 It is python codes and use "python grade_counter.py" to run!
 # File format 
@@ -11,20 +11,31 @@ It is python codes and use "python grade_counter.py" to run!
 
 # Description of file format
 Quizzes should locate first part of scores. 
-Codes ask you total maximum scores, start position of quiz row and score column, input and output file names. 
-At the end, codes ask you whether you need to remove minimum scores of quizzes or not. 
-If your answer is yes, codes ask you to type first and last collumn of quizzes. 
+
+grade_counter.py ask you total maximum scores, start position of quiz row and score column, input and output file names. 
+
+At the end, grade_counter.py ask you whether you need to remove minimum scores of quizzes or not. 
+
+If your answer is yes, grade_counter.py ask you to type first and last collumn of quizzes. 
 
 Questions are followings (with example answers) ...
 
 What is maximum scores?: 500
+
 Which row does grading start: 3
+
 Which column does scores start: 3
+
 Input file name is (add quotation marks): 'grades.txt'
+
 Output file name is (add quotation marks): 'finalgrades.txt'
+
 Do you need to remove minimum scores of quizzes? (add quotation marks) : 'yes'
+
 Enter first quiz column: 3
+
 Enter last quiz column: 8
+
 # Outcome
 
 	NAME1	id1 250	B #from 2nd_line(students total scores and grade)
