@@ -128,6 +128,7 @@ filename()
 yes_or_no()
 
 
-
+import os
+os.remove('exchange_to_numerical_data')
 
 
