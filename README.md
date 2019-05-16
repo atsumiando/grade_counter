@@ -1,38 +1,33 @@
 # grade_counter
 Calculate total scores and grades for each students with a function of removing minimum score of quizzes. 
 
-It is python codes and use "grade_counter.py" to run!
+It is python codes and use "python grade_counter.py" to run!
 # File format 
 
-		quiz1	quiz2	quiz3	quiz4	exam1	exam2	journal_club	attendance	assignment	#1st_line(header)
-	Points	10	10	10	10	100	100	20	20	20	#2nd_line(Points)
-	NAME1	5	6	7	8	99	80	20	20	10	#from 3rd_line(students scores)
-	NAME2	5	7	7	9	96	78	12	17	5	#from 3rd_line(students scores)
-
+	Name	ID	quiz1	quiz2	quiz3	quiz4	exam1	exam2	journal_club	attendance	assignment	
+	Points	total	10	10	10	10	100	100	20	20	20	
+	NAME1	id1	5	6	7	8	99	80	20	20	10	
+	NAME2	id2	5	7	7	9	96	78	12	17	5	
 
 # Description of file format
-File name is "grades.txt" and format is tab split file. Example "grades.txt" had been uploaded.
+Quizzes should locate first part of scores. 
+Codes ask you total maximum scores, start position of quiz row and score column, input and output file names. 
+At the end, codes ask you whether you need to remove minimum scores of quizzes or not. 
+If your answer is yes, codes ask you to type first and last collumn of quizzes. 
 
-First line is header of contents(e.g. quiz, exam, attendance, etc...)
+Questions are followings (with example answers) ...
 
-Second line is points of each content ( e.g. quiz, exam, attendance, etc...) and first column name is "Points". 
-
-First collumn is name of students from thired lines.
-
-Blank is allowed in each contents. 
-
-Column of quizzes need to be located continuously (quizzes: 2nd-7th column) not random (quizzes:2-4th and 7-10th column).
-
+What is maximum scores?: 500
+Which row does grading start: 3
+Which column does scores start: 3
+Input file name is (add quotation marks): 'grades.txt'
+Output file name is (add quotation marks): 'finalgrades.txt'
+Do you need to remove minimum scores of quizzes? (add quotation marks) : 'yes'
+Enter first quiz column: 3
+Enter last quiz column: 8
 # Outcome
-Outcome is "finalgrade.txt".
 
-	Points	290	A #1st_line(Points, total scores and maximum grade)
-	NAME1	250	B #from 2nd_line(students total scores and grade)
-	NAME2	231	C #from 2nd_line(students total scores and grade)
+	NAME1	id1 250	B #from 2nd_line(students total scores and grade)
+	NAME2	id2 231	C #from 2nd_line(students total scores and grade)
 
-It is set A>=90%, 90%>B>=80%,  80%>C>=70%, 70%>D>=60%, and F<60%.
-
-First line is "Points", which are maximum total scores and grade. 
-
-After scond lines, first column is name of students, second column is total scores of each students, and last column is grade of each students. 
-
+It is set A>=92%, 92%>A->88%, 88%>B+>=84%, 84%>B>=80%, 80%>B->=76%, 76%>C+>=72%, 72%>C>=68%, 68%>C->=64%, 64%>D+>=60, 60%>D>=56%, 56%>D->=52%, and F<52%.
