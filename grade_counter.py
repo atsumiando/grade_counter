@@ -32,7 +32,7 @@ def grade(score):#define grades
 	return letter 
 
 def filename():
-	with open('grades.txt', 'r') as sourcefile:#add your file name and separate data in lines
+	with open(input_file_name, 'r') as sourcefile:#add your file name and separate data in lines
 		list = sourcefile.read().splitlines()
 		inputs, record = [], []
 		for index in range(len(list)):
