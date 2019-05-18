@@ -41,4 +41,4 @@ Enter last quiz column: 8
 	NAME1	id1 250	B #from 2nd_line(students total scores and grade)
 	NAME2	id2 231	C #from 2nd_line(students total scores and grade)
 
-It is set A>=92%, 92%>A->88%, 88%>B+>=84%, 84%>B>=80%, 80%>B->=76%, 76%>C+>=72%, 72%>C>=68%, 68%>C->=64%, 64%>D+>=60, 60%>D>=56%, 56%>D->=52%, and F<52%.
+Setting of grades are A>=92%, 92%>A->88%, 88%>B+>=84%, 84%>B>=80%, 80%>B->=76%, 76%>C+>=72%, 72%>C>=68%, 68%>C->=64%, 64%>D+>=60, 60%>D>=56%, 56%>D->=52%, and F<52%.
